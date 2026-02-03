@@ -16,6 +16,11 @@
 #:schema https://developers.openai.com/codex/config-schema.json
 ```
 
+## 配置文件位置与作用域
+
+- 用户级配置：`~/.codex/config.toml`
+- 项目级覆盖：`.codex/config.toml`（只有在你信任该项目时才会加载）
+
 ## 字段清单（全量）
 
 | Key | Type / Values | 官方说明 |
